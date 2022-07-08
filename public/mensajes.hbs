@@ -1,0 +1,8 @@
+{{#each objects}}
+    <div class='Mensaje'>
+        <p class='messageMail'>{{this.autor.id}}</p>
+        <img class="avatar" src="{{this.autor.imagen}}">
+        <p class='messageDate'>{{this.fecha}}</p>
+        <p class='message-class'>{{this.mensaje}}</p>
+    </div>
+{{/each}}

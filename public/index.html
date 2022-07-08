@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+form
+
+<label>Nombre del producto</label>
+<input id='name' type="text" name="title">
+<label>Precio</label>
+<input id='price' type="price" name="price">
+<label>url</label>
+<input id ='url' type="url" name="url">
+
+<button id ='addProduct'>Agregar producto</button>
+</form>
+
+<div id ='productContainer'>
+
+</div>
+<div id = 'chatContainer'>
+    <div id='messageContainer'>
+
+    </div>
+    <div id='sendMessageArea'>
+        <form id ='formMensajes'>
+            <center>
+                <label for="mail">Email</label><br>
+                <input type="mail" name="mail"><br>
+
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre"><br>
+
+                <label for="apellido">Apellido</label><br>
+                <input type="text" name="apellido"><br>
+
+                <label for="edad">Edad</label><br>
+                <input type="text" name="edad"><br>
+
+                <label for="alias">Alias</label><br>
+                <input type="text" name="alias"><br>
+
+                <label for="imagen">Imagen</label><br>
+                <input type="text" name="imagen"><br>
+
+                <textarea id='messageText' type="text" name="texto"></textarea>
+                <button id = 'sendMessageButton' type="button">Enviar</button>
+            </center>
+        </form>
+    </div>
+</div>
+<h1 id="porcentaje"></h1>
+<scrip src="https://cdnjs.cloudflare.com/ajax/libs/Faker/0.5.12/MinFaker.js"></scrip>
+<script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js'></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

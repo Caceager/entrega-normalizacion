@@ -1,0 +1,86 @@
+caption{
+	background-color: black;
+	color: white;
+	font-size: larger;
+}
+table{
+	margin-right: auto;
+	margin-left: auto;
+
+}
+td{
+	width: 200px;
+	background-color: #66CCFF;
+	text-align: center;
+}
+
+th{
+	background-color: #6666CC;
+}
+
+#productContainer{
+	background-color: #99FFFF;
+	margin-top: 100px;
+	padding: 50px;
+}
+
+.avatar{
+	width: 30px;
+	height: 30px;
+}
+#chatContainer{
+	width: 400px;
+	height: 800px;
+	border: 4px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+#messageContainer{
+	width: 100%;
+	height: 450px;
+	border-bottom: 4px solid black;
+	overflow-y: scroll;
+}
+
+#sendMessageArea{
+	background-color: #6600FF;
+	width: 100%;
+	height: 350px;
+	border-bottom: 4px solid black;
+}
+
+#messageText{
+	width: 90%;
+	height: 60px;
+}
+
+.Mensaje{
+	background-color: #33CCFF;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.Mensaje .messageMail{
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+}
+.Mensaje .messageDate{
+	color: brown;
+}
+.Mensaje .message-class{
+	color: green;
+	font-style: italic;
+}
+
+.avatar{
+	display: inline-block;
+	position: relative;
+	margin-left: auto;
+	margin-right: 0;
+}
+h1{
+	text-align: center;
+}
